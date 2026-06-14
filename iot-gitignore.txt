@@ -1,0 +1,28 @@
+# Credentials (NEVER commit these)
+config.h
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# Generated plots
+*.jpg
+!images/*.jpg
+
+# Build artifacts
+*.apk
+*.bin
+*.elf
+*.hex
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
