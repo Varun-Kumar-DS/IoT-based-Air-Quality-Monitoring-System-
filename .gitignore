@@ -1,0 +1,29 @@
+# Arduino
+*.elf
+*.hex
+build/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment & Secrets
+.env
+.env.*
+config.h
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+*.csv
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
